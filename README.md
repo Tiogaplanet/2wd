@@ -4,9 +4,7 @@ The two-wheeled robot with a low center of gravity.
 
 ![A high-quality, professional artist's conceptual rendering of 2wd.](https://github.com/Tiogaplanet/2wd/raw/master/images/2wd.png)
 
-I'm just thinking out loud here and trying to organize my thoughts.  I haven't actually done anything yet.  
-
-I like MiP.  There's no denying the mobile inverted pendulum, for which it gets its name, is an innovative design.  Unfortunately the innovation comes at the cost of increased battery consumption.  MiP cannot come to a resting position as long as it is powered on.  In order to remain upright it must constantly rebalance itself to prevent from toppling over.
+I like [MiP](https://github.com/Tiogaplanet/MiP_ESP8266_Library).  There's no denying the mobile inverted pendulum, for which it gets its name, is an innovative design.  Unfortunately the innovation comes at the cost of increased battery consumption.  MiP cannot come to a resting position as long as it is powered on.  In order to remain upright it must constantly rebalance itself to prevent from toppling over.
 
 Other consumer grade robots such as Anki's Vector or Cozmo use a tracked design.  The many four-wheeled Arduino kits for sale around the Internet use skid steering similar to Vector and Cozmo at the cost of decreased agility compared to MiP's differential steering.  I'm looking for a different approach that has the agility of MiP but without the skid steering or complexity of a tracked or four-wheel drive system.
 
@@ -20,15 +18,23 @@ The goal is a single motherboard containing all of the circuitry with the except
 
 | Description | Quantity |
 |-------------|----------|
-| [Wemos D1 mini Pro](https://wiki.wemos.cc/products:d1:d1_mini_pro) | 1 |
+| [Arduino 33 IoT](https://store.arduino.cc/usa/nano-33-iot) | 1 |
 | [90x10mm wheels](https://www.pololu.com/product/1435) | 2 |
 | [Gear motors](https://www.pololu.com/product/1520) | 2 |
-| [Gear motor brackets](https://www.pololu.com/product/2680) | 2 |
+| [Gear motor brackets](https://www.pololu.com/product/2681) | 1 |
 | [Magnetic encoder pair](https://www.pololu.com/product/1523) | 1 |
 | [Motor driver](https://www.pololu.com/product/2135) | 1 |
-| [IMU](https://www.pololu.com/product/2739) | 1 |
 | [IR sensors](https://www.pololu.com/product/2464) | 2 |
-| 18650 batteries | 4 |
-| Battery box | 4 |
-| TP4056 charging module | 4 |
+| 18650 batteries | 2 |
+| Battery management system | 1 |
 | Perforated board | 1 |
+
+## 13 December 2019
+
+The last several weeks I have tried organizing a place to work in my latest home.  Tonight I was finally able to assemble a few things.
+
+![A view of the top side of 2wd. Motors and batteries are assembled on opposite sides of the center line to balance weight.](https://github.com/Tiogaplanet/2wd/raw/master/images/2wd_build02.jpg)
+
+![A view of the front of 2wd.  The batteries are mounted near the front and rear edge of the main prototyping board.](https://github.com/Tiogaplanet/2wd/raw/master/images/2wd_build01.jpg)
+
+I have breadboard-tested the motor driver and an OLED display.  Next, I plan to sort out the charging system and install it on 2wd.
