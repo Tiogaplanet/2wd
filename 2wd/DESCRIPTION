@@ -1,1 +1,3 @@
-A two-wheeled robot with a low center of gravity.
+<strong>A two-wheeled robot with a low center of gravity.</strong>
+
+<p>2wd is composed of two circuit boards.  The motherboard contains the microprocessor, in this case a Wemos D1 mini, and the input sensors for the robot.  The daughterboard provides motor speed control, power management and ballast in the form of two 18650 batteries.</p>
