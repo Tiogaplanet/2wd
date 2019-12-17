@@ -4,6 +4,8 @@ The two-wheeled robot with a low center of gravity.
 
 ![A high-quality, professional artist's conceptual rendering of 2wd.](https://github.com/Tiogaplanet/2wd/raw/master/images/2wd.png)
 
+**This repository contains the Eagle files for 2wd and a running log of its development.**
+
 I like [MiP](https://github.com/Tiogaplanet/MiP_ESP8266_Library).  There's no denying the mobile inverted pendulum, for which it gets its name, is an innovative design.  Unfortunately the innovation comes at the cost of increased battery consumption.  MiP cannot come to a resting position as long as it is powered on.  In order to remain upright it must constantly rebalance itself to prevent from toppling over.
 
 Other consumer grade robots such as Anki's [Vector](https://anki.com/en-us/vector.html) or [Cozmo](https://anki.com/en-us/cozmo.html) use a tracked design.  The many four-wheeled Arduino kits for sale around the Internet use skid steering similar to Vector and Cozmo at the cost of decreased agility compared to MiP's differential steering.  I'm looking for a different approach that has the agility of MiP but without the skid steering or complexity of a tracked or four-wheel drive system.
