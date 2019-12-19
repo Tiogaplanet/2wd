@@ -33,10 +33,10 @@ I'll update the bill of materials for prototyping as I develop the robot.  For n
 | [Prototype board (7x9 cm) for motherboard and drive/power board](https://www.amazon.com/gp/product/B072Z7Y19F/ref=ppx_yo_dt_b_asin_title_o04_s01?ie=UTF8&psc=1) | 2 |
 | 18650 batteries | 2 |
 | [Voltage regulator](https://www.amazon.com/gp/product/B00IJYDJTS/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) | 1 |
-| 6mm PCB stand-offs, nuts and screws for regulator | 2 |
+| 15mm PCB stand-offs, nuts and screws for regulator | 2 |
 | [DC barrel jack](https://www.amazon.com/gp/product/B074LK7G86/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1) | 1 |
 | [SPDT switch](https://www.ebay.com/itm/12-Breadboard-slide-switches-3-pin-50-volt-500-milliamp-SPDT-switch-Arduino/112891316956) | 1 |
-| 15mm PCB stand-offs, nuts and screws for motherboard and drive/power board | 4 |
+| 26mm PCB stand-offs, nuts and screws for motherboard and drive/power board | 4 |
 | [OLED display](https://www.amazon.com/gp/product/B072Q2X2LL/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) | 1 |
 | PCB stand-offs, nuts and screws for OLED display | 4 |
 
