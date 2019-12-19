@@ -21,13 +21,13 @@ I'll update the bill of materials for prototyping as I develop the robot.  For n
 | Description | Quantity |
 |-------------|----------|
 | [Arduino Nano 33 IoT](https://store.arduino.cc/usa/nano-33-iot) | 1 |
-| 15 pin female header for Nano | 2 |
+| 15 pin female headers for Nano | 2 |
 | [90x10mm wheels](https://www.pololu.com/product/1435) | 2 |
 | [Gear motors](https://www.pololu.com/product/1520) | 2 |
 | [Gear motor bracket pair](https://www.pololu.com/product/2681) | 1 |
 | [Magnetic encoder pair](https://www.pololu.com/product/1523) | 1 |
 | [Motor driver](https://www.pololu.com/product/2135) | 1 |
-| 7 pin female header for driver | 2 |
+| 7 pin female headers for driver | 2 |
 | [IR sensors](https://www.pololu.com/product/2476) | 2 |
 | [Battery management system (BMS)](https://www.amazon.com/gp/product/B07S7PKPH6/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) | 1 |
 | [Prototype board (7x9 cm) for motherboard and drive/power board](https://www.amazon.com/gp/product/B072Z7Y19F/ref=ppx_yo_dt_b_asin_title_o04_s01?ie=UTF8&psc=1) | 2 |
@@ -39,6 +39,20 @@ I'll update the bill of materials for prototyping as I develop the robot.  For n
 | 15mm PCB stand-offs, nuts and screws for motherboard and drive/power board | 4 |
 | [OLED display](https://www.amazon.com/gp/product/B072Q2X2LL/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) | 1 |
 | PCB stand-offs, nuts and screws for OLED display | 4 |
+
+## 19 December 2019
+
+No new work.  Just sharing some of my latest pictures.  Below is a picture of 2wd doing some bench testing.  It's sitting on the box for the Nano 33 IoT while I test code for operating the motors.  I'm using the Arduino Uno clone behind the breadboard to power the motors.  The motors still need more current than what the Uno clone provides.  However, I have received some 2.1mm DC barrel jacks in the mail so I will be able to connect a wall-wart power supply to the motors via the LM2596 module.
+
+![2wd is bench tested. Here it is sitting on the box for the Nano 33 IoT so that the motors can spin freely while undergoing test.](https://github.com/Tiogaplanet/2wd/raw/master/images/benchtest01.JPG)
+
+I soldered a few right-angle pins onto the BMS to make it fit onto the prototyping board that makes up 2wd's chassis.  I didn't use a lot of solder in case I needed to undo it.  Once everything tests out I'll do come back and re-solder the right-angle pins.
+
+![A view of the underside of the battery management system shwoing right angle pins to make the BMS prototyping- and breadboard-friendly.](https://github.com/Tiogaplanet/2wd/raw/master/images/bms01.JPG)
+
+![A view of the top of the battery management system.](https://github.com/Tiogaplanet/2wd/raw/master/images/bms02.JPG)
+
+The LM2596 module doesn't plug into a prototyping board either but it has screw holes so I plan to drill holes in the prototyping board and mount the module using PCB stand-offs.
 
 ## 13 December 2019
 
