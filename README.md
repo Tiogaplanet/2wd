@@ -48,7 +48,7 @@ Spent a few hours tonight soldering up the batteries, BMS and barrel jack.  The 
 
 The next picture shows a test fit of the voltage regulator.  I am holding off on installing the voltage regulator until I decide what kind of power switch to use.  The motors have a peak draw of 1.2 amps.  Because of that I'm debating a plain old SPDT switch or a MOSFET-based switch circuit.
 
-![The voltage regulator is shown in a test fit between the two batteries and below the BMS.](https://github.com/Tiogaplanet/2wd/raw/master/images/charge01.jpg)
+![The voltage regulator is shown in a test fit between the two batteries and below the BMS.](https://github.com/Tiogaplanet/2wd/raw/master/images/charge02.jpg)
 
 I was concerned that this robot would be made up of too many modular circuits like the voltage regulator, but seeing how nicely it fits made me glad I decided to use it instead of assembling my own regulator circuit from scratch.
 
