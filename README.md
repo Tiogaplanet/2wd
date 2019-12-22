@@ -40,6 +40,18 @@ I'll update the bill of materials for prototyping as I develop the robot.  For n
 | [OLED display](https://www.amazon.com/gp/product/B072Q2X2LL/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) | 1 |
 | PCB stand-offs, nuts and screws for OLED display | 4 |
 
+## 21 December 2019
+
+Spent a few hours tonight soldering up the batteries, BMS and barrel jack.  The picture below shows  everything together.
+
+![The charging circuit is connected.](https://github.com/Tiogaplanet/2wd/raw/master/images/charge01.jpg)
+
+The next picture shows a test fit of the voltage regulator.  I am holding off on installing the voltage regulator until I decide what kind of power switch to use.  The motors have a peak draw of 1.2 amps.  Because of that I'm debating a plain old SPDT switch or a MOSFET-based switch circuit.
+
+![The voltage regulator is shown in a test fit between the two batteries and below the BMS.](https://github.com/Tiogaplanet/2wd/raw/master/images/charge01.jpg)
+
+I was concerned that this robot would be made up of too many modular circuits like the voltage regulator, but seeing how nicely it fits made me glad I decided to use it instead of assembling my own regulator circuit from scratch.
+
 ## 19 December 2019
 
 No new work.  Just sharing some of my latest pictures.  Below is a picture of 2wd doing some bench testing.  It's sitting on the box for the Nano 33 IoT while I test code for operating the motors.  I'm using the Arduino Uno clone behind the breadboard to power the motors.  The motors still need more current than what the Uno clone provides.  However, I have received some 2.1mm DC barrel jacks in the mail so I will be able to connect a wall-wart power supply to the motors via the LM2596 module.
