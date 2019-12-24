@@ -40,6 +40,12 @@ I'll update the bill of materials for prototyping as I develop the robot.  For n
 | [OLED display](https://www.amazon.com/gp/product/B072Q2X2LL/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) | 1 |
 | PCB stand-offs, nuts and screws for OLED display | 4 |
 
+## 24 December 2019
+
+I spent today finishing the power circuit and moving the motor controller and Nano onto the chassis.  After some debugging in software I got the thing working.  Next steps are to get the IR sensors working and continue to develop the library.
+
+![Motors, motor controller, Nano and power are installed on the chassis.](https://github.com/Tiogaplanet/2wd/raw/master/images/initialassembly.jpg)
+
 ## 21 December 2019
 
 Spent a few hours tonight soldering up the batteries, BMS and barrel jack.  The picture below shows  everything together.
