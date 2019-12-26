@@ -44,7 +44,7 @@ I'll update the bill of materials for prototyping as I develop the robot.  For n
 
 I spent today finishing the power circuit and moving the motor controller and Nano onto the chassis.  I set the voltage regulator module output to 5.1 volts.  That will provide enough juice to power both motors.  The voltage regulator onboard the Nano (VIN) will get it down to the 3.3 volts required by the Nano 33 IoT.  
 
-This first picture shows the voltage regulator module connected to the BMS.  I used a simple jumper as an on/off switch to conserve space on the board while I ponder a better solution.
+This first picture shows the voltage regulator module connected to the BMS.  I used a simple jumper as an on/off switch to conserve space on the board while I ponder a better solution.  The output of the voltage regulator is connected to the prototype board so that I can pass power to the top board where the Nano and motor controller are soldered.
 
 ![The voltage regulator module is connected to the BMS.](https://github.com/Tiogaplanet/2wd/raw/master/images/lm2596.jpg)
 
