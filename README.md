@@ -42,9 +42,17 @@ I'll update the bill of materials for prototyping as I develop the robot.  For n
 
 ## 24 December 2019
 
-I spent today finishing the power circuit and moving the motor controller and Nano onto the chassis.  After some debugging in software I got the thing working.  Next steps are to get the IR sensors working and continue to develop the library.
+I spent today finishing the power circuit and moving the motor controller and Nano onto the chassis.  I set the voltage regulator module output to 5.1 volts.  That will provide enough juice to power both motors.  The voltage regulator onboard the Nano (VIN) will get it down to the 3.3 volts required by the Nano 33 IoT.  
+
+This first picture shows the voltage regulator module connected to the BMS.  I used a simple jumper as an on/off switch to conserve space on the board while I ponder a better solution.
+
+![The voltage regulator module is connected to the BMS.](https://github.com/Tiogaplanet/2wd/raw/master/images/lm2596.jpg)
+
+After some debugging in software I got the thing working.  I found that my check for an established serial connection would cause the entire sketch to hang when the robot was finally untethered from the computer.
 
 ![Motors, motor controller, Nano and power are installed on the chassis.](https://github.com/Tiogaplanet/2wd/raw/master/images/initialassembly.jpg)
+
+Next steps are to implement PID in the library to keep the body level while moving and get the IR sensors working.
 
 ## 21 December 2019
 
